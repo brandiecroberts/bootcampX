@@ -1,0 +1,5 @@
+-- ALL THE NAMES OF THE STUDENTS IN A SINGLE COHORT
+SELECT id, name 
+FROM students 
+WHERE cohort_id = 1
+ORDER BY name;
