@@ -1,0 +1,4 @@
+-- AVERAGE TIME STUDENT WAITS FOR AN ASSISTANCE REQUEST
+-- DISTANCE BETWEEN REQUEST BEING CREATED & BEING STARTED
+SELECT avg(started_at-created_at) as average_wait_time
+FROM assistance_requests;
